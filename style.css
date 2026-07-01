@@ -1,0 +1,117 @@
+body{
+
+margin:0;
+background:#000;
+font-family:Arial;
+
+}
+
+.container{
+
+max-width:500px;
+
+margin:auto;
+
+padding:25px;
+
+text-align:center;
+
+}
+
+.price{
+
+width:100%;
+
+border-radius:20px;
+
+box-shadow:0 0 30px rgba(255,180,70,.15);
+
+}
+
+h2{
+
+color:#3FAF5A;
+
+margin-top:85px;
+
+margin-bottom:30px;
+
+font-size:28px;
+
+font-weight:bold;
+
+}
+
+.icons{
+
+display:flex;
+
+justify-content:center;
+
+gap:35px;
+
+margin-top:10px;
+
+margin-bottom:25px;
+
+}
+
+.icons a{
+
+font-size:42px;
+
+transition:.25s;
+
+text-decoration:none;
+
+}
+
+.icons a:hover{
+
+transform:scale(1.15);
+
+}
+
+/* Instagram */
+
+.icons a:nth-child(1){
+
+color:#E4405F;
+
+}
+
+/* Facebook */
+
+.icons a:nth-child(2){
+
+color:#1877F2;
+
+}
+
+/* TikTok */
+
+.icons a:nth-child(3){
+
+color:#FFFFFF;
+
+}
+
+/* WhatsApp */
+
+.icons a:nth-child(4){
+
+color:#25D366;
+
+}
+
+.footer{
+
+margin-top:35px;
+
+color:#b28a54;
+
+font-size:15px;
+
+letter-spacing:1px;
+
+}
